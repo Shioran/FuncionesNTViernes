@@ -1,0 +1,7 @@
+from funcionCinco import calcular_nivel_represa
+from funcionDos import crear_lista
+from fincionTres import calcular_promedio_lista
+
+listaMediciones=crear_lista(20,0,800)
+medicionPromedio=calcular_promedio_lista(listaMediciones)
+calcular_nivel_represa(medicionPromedio)
